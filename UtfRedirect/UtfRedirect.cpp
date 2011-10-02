@@ -1,5 +1,9 @@
-// UtfRedirect.cpp : Defines the entry point for the console application.
-//
+/*
+ * NeoSmart UtfRedirect
+ * Author: Mahmoud Al-Qudsi <mqudsi@neosmart.net>
+ * Copyright (C) 2011 by NeoSmart Technologies
+ * This code is released under the terms of the MIT License
+*/
 
 #include "stdafx.h"
 #include <string>
