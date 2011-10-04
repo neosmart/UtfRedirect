@@ -1,0 +1,22 @@
+UtfRedirect is an application meant to proxy the execution of console
+utilities and force their codepage to UTF8 to enable the reading and
+writing of internationalized stdin and stdout between a host and slave
+application.
+
+UtfRedirect is developed and maintained by Mahmoud Al- Qudsi
+<mqudsi@neosmart.net> of NeoSmart Technologies <http://neosmart.net/>
+
+
+Usage:
+
+UtfRedirect is to be run without any command line paramaters:
+
+UtfRedirect.exe
+
+Upon launch, UtfRedirect will be expecting two (2) lines of stdin
+input. The first line is the name of the application, and the second
+line is any command line arguments that the said application is to be
+launched with. Both lines must be UTF8-encoded. After the second line
+is entered, the specified application will be run and its stdout will
+be piped back to the host application with a forced codepage of
+UTF8/65001.
