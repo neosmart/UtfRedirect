@@ -3,7 +3,7 @@ utilities and force their codepage to UTF8 to enable the reading and
 writing of internationalized stdin and stdout between a host and slave
 application.
 
-UtfRedirect is developed and maintained by Mahmoud Al- Qudsi
+UtfRedirect is developed and maintained by Mahmoud Al-Qudsi
 <mqudsi@neosmart.net> of NeoSmart Technologies <http://neosmart.net/>
 
 
