@@ -37,8 +37,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	getline(cin, arguments);
 
 	CString wApplication, wArguments;
-	MultiByteToWideChar(CP_UTF8, 0, application.c_str(), -1, CStrBuf(wApplication, MAX_PATH), MAX_PATH);
-	MultiByteToWideChar(CP_UTF8, 0, arguments.c_str(), -1, CStrBuf(wArguments, MAX_PATH), MAX_PATH);
+	MultiByteToWideChar(CP_UTF8, 0, application.c_str(), -1, CStrBuf(wApplication, application.length() + 1), application.length() + 1);
+	MultiByteToWideChar(CP_UTF8, 0, arguments.c_str(), -1, CStrBuf(wArguments, arguments.length() + 1), arguments.length() + 1);
 
 	SetStdHandle(STD_OUTPUT_HANDLE, hOld);
 	
